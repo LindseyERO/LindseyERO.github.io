@@ -501,7 +501,7 @@
     </div>
   </section>
 
-  <div class="ornamental-divider">· · ·</div>
+<div style="background: linear-gradient(to bottom, var(--cream) 0%, var(--deep-green) 100%); height: 5rem;"></div>
 
   <!-- RESEARCH -->
   <div id="research">
@@ -536,7 +536,28 @@
       </div>
     </div>
   </div>
+<div style="background: linear-gradient(to bottom, var(--deep-green) 0%, var(--cream) 100%); height: 5rem;"></div>
 
+  <!-- PUBLICATIONS -->
+  <section id="publications">
+
+Change 3 — Update the #research CSS
+Find this in your <style> block:
+css#research { background: var(--warm-white); max-width: 100%; }
+Replace it with:
+css#research { background: var(--deep-green); max-width: 100%; }
+And find the .research-card rule and update these four properties:
+css/* FIND and change these values inside their existing rules */
+.research-card { background: var(--cream); ... }
+.card-topic { color: var(--sage); }
+.card-title { color: var(--ink); }
+.card-desc { color: var(--mid); }
+
+/* TO */
+.research-card { background: #243d30; ... }
+.card-topic { color: #8ec4d8; }
+.card-title { color: var(--cream); }
+.card-desc { color: #9fd4c0; } Sonnet 4.6Claude is AI and can make mistakes. Please double-check responses.Index · HTMLCopy
   <!-- PUBLICATIONS AND PAPERS -->
   <section id="publications">
     <p class="section-label">Selected Works</p>
